@@ -90,7 +90,7 @@
                 <div class="collapse" id="dashboard">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../demo1/index.html">
+                       <a th:href="@{/}">
                         <span class="sub-item">Dashboard 1</span>
                       </a>
                     </li>
@@ -112,15 +112,18 @@
                       </a>
                     </li>
                     <li>
-                      <a href="components/buttons.html">
+                      <a th:href="@{/grupos}">
                         <span class="sub-item">Grupos</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/gridsystem.html">
+                       <a th:href="@{/docentes}">
                         <span class="sub-item">Docentes</span>
                       </a>
                     </li>
+                    <a th:href="@{/asignaciones}">
+                        <span class="sub-item">Asignaciones</span>
+                      </a>
                   
                    
                   </ul>

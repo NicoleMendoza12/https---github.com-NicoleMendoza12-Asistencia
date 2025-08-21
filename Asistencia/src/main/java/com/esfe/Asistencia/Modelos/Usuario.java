@@ -71,5 +71,12 @@ public class Usuario {
     public Integer getId(){
         return Id;
     }
+     // Método para agregar roles
+    public void agregar(Rol tempRol) {
+        if (Roles == null) {
+            Roles = new LinkedList<>();
+        }
+        Roles.add(tempRol);
+    }
 
 }
